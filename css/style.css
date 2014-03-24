@@ -282,7 +282,7 @@ img { max-width: 100%; }
 
 		/* Each speaker is wrapped by div#item */
 		#section-speakers .item {
-			
+			height: 800px;
 		}
 
 			#section-speakers .item h3 {
@@ -825,6 +825,14 @@ img { max-width: 100%; }
 			letter-spacing: 4px;
 		}
 
+.item .thumbnail {
+	height: 268px;
+	overflow: hidden;
+}
+
+.item .thumbnail img {
+	width: 100%;
+}
 /*--------------------------------------------------------------------------
    4. Forms
 --------------------------------------------------------------------------*/
