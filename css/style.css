@@ -282,7 +282,11 @@ img { max-width: 100%; }
 
 		/* Each speaker is wrapped by div#item */
 		#section-speakers .item {
-			height: 800px;
+			height: 1000px;
+		}
+
+		#section-speakers .item p{
+			height: 300px;
 		}
 
 			#section-speakers .item h3 {
@@ -826,7 +830,7 @@ img { max-width: 100%; }
 		}
 
 .item .thumbnail {
-	height: 268px;
+	height: 250px;
 	overflow: hidden;
 }
 
